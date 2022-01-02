@@ -1,4 +1,4 @@
-# Challenge #1 (UTOR-VIRT-DATA-PT-12-2021-U-B)
+# Challenge #1 (UTOR-VIRT-DATA-PT-12-2021-U-B) - [Student: Agnes Tong]
 
 # An Analysis of Kickstarter Dataset 
 
@@ -29,9 +29,9 @@ The second analysis was to determine the number and proportion of campaigns base
 4.	The =COUNTIFS() function was used to populate # successful, # failed, and # canceled columns. The parameters included the campaign goal and outcome of the campaign for plays only. Examples of the formula are displayed below.
 5.	The total # of projects column was populated using the =SUM() function. It is summing the # successful, # failed, and # canceled together across each row. The formula was copied and pasted for the rest of the rows. 
 6.	Percentage of successful, failed and canceled projects were calculated: 
--	# success divided by total # projects 
--	# failed divided by total # projects 
--	# canceled divided by total # projects 
+-	Number of success divided by total # projects 
+- Numner of failed divided by total # projects 
+- Number of canceled divided by total # projects 
 An example of the formula is displayed below: 
 7.	A line chart was created to visualize the relationship between the goal-amount ranges and the percentage of successful, failed, and canceled projects. There are three lines, representing (i) % of successful campaigns, (ii) % of failed campaigns, and (iii) % of canceled campaigns for each goal-amount category. 
 
