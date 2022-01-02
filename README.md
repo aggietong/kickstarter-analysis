@@ -44,8 +44,8 @@ The second analysis was to determine the number and proportion of campaigns base
 ![kickstarter_pic6](https://user-images.githubusercontent.com/96399622/147886607-37305750-adee-4a05-b889-014107902229.png)
 ![kickstarter_pic7](https://user-images.githubusercontent.com/96399622/147886610-651b3934-937f-4e41-a8cb-2d90572d055a.png)
 
-6.	The total # of projects column was populated using the =SUM() function. It is summing the # successful, # failed, and # canceled together across each row. The formula was copied and pasted for the rest of the rows. 
-7.	Percentage of successful, failed and canceled projects were calculated: 
+5.	The total # of projects column was populated using the =SUM() function. It is summing the # successful, # failed, and # canceled together across each row. The formula was copied and pasted for the rest of the rows. 
+6.	Percentage of successful, failed and canceled projects were calculated: 
 -	Number of success divided by total # projects 
 - Numner of failed divided by total # projects 
 - Number of canceled divided by total # projects 
