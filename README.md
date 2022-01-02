@@ -18,6 +18,7 @@ The first analysis was to determine which month Louise should launch her fundrai
 -	Filter “theater” from the variable “parent category”
 -	Filter “live” from the column labels for the variable “outcome” 
 -	Using the Grouping function, choose Months to display every month
+
 ![kickstarter_pic2](https://user-images.githubusercontent.com/96399622/147886499-be4b14a3-84de-4beb-abbb-cecd101c4083.png)
 -	Using the Move function, re-organize the outcomes successful, failed, and canceled 
 ![kickstarter_pic3](https://user-images.githubusercontent.com/96399622/147886524-b365a6f2-52e1-4d9f-8e41-21ff63f6c924.png)
