@@ -1,2 +1,48 @@
-# kickstarter-analysis
-Performing analysis on Kickstarter data to uncover trends 
+# Challenge #1 (UTOR-VIRT-DATA-PT-12-2021-U-B)
+
+# An Analysis of Kickstarter Dataset 
+
+## Overview of Project 
+
+Louise, an up and coming playwright is looking to start a fundraising campaign for her play “Fever”. Her anticipated budget for the play is approximately $10,000. With the use of the crowdfunding dataset, an analysis has been performed to help provide Louise with insights of previous successful fundraising campaigns. Campaign outcomes such as fundraising goals and launch dates will help Louise to determine her own strategies to ensure a successful fundraising campaign for her play. 
+
+## Overview of Analysis
+
+### Analysis 1: Theater Outcomes by Launch Date
+
+The first analysis was to determine which month Louise should launch her fundraising campaign. The following steps were taken: 
+1.	Created a new column “year”, and extracted the year from the “date created conversion” column using the formula =YEAR() function
+2.	A pivot table was created and the sheet was labeled “Theatre Outcomes by Launch Date”. The following variables were placed in the appropriate filters, rows, columns, rows, and values in the pivot table fields. 
+3.	Once the pivot table was created, further filtering was done: 
+-	Filter “theater” from the variable “parent category”
+-	Filter “live” from the column labels for the variable “outcome” 
+-	Using the Grouping function, choose Months to display every month
+-	Using the Move function, re-organize the outcomes successful, failed, and canceled 
+4.	A line graph was created from the pivot table to visualize the relationship between launch month and outcomes of the campaign. The x-axis displays launch month and the y-axis displays the number of campaigns. There are three lines, representing (i) the number of successful campaigns, (ii) the number of failed campaigns, and (iii) the number of canceled campaigns for each launch month. 
+
+### Analysis 2: Outcomes based on Goals 
+
+The second analysis was to determine the number and proportion of campaigns based on the goals set in dollar amounts were successful, failed, and canceled. This information would inform Louise on her own campaign goal for her play. The following steps were taken: 
+1.	A new sheet was created and labeled “Outcomes Based on Goals”
+2.	Eight new columns were created for each of the following variables: goal, # successful, # failed, # canceled, total # projects, % successful, % failed, and % canceled. 
+3.	Under the goal column, 12 different dollar amount ranges were created. 
+4.	The =COUNTIFS() function was used to populate # successful, # failed, and # canceled columns. The parameters included the campaign goal and outcome of the campaign for plays only. Examples of the formula are displayed below.
+5.	The total # of projects column was populated using the =SUM() function. It is summing the # successful, # failed, and # canceled together across each row. The formula was copied and pasted for the rest of the rows. 
+6.	Percentage of successful, failed and canceled projects were calculated: 
+-	# success divided by total # projects 
+-	# failed divided by total # projects 
+-	# canceled divided by total # projects 
+An example of the formula is displayed below: 
+7.	A line chart was created to visualize the relationship between the goal-amount ranges and the percentage of successful, failed, and canceled projects. There are three lines, representing (i) % of successful campaigns, (ii) % of failed campaigns, and (iii) % of canceled campaigns for each goal-amount category. 
+
+## Challenges
+I encountered two small challenges during the analysis in order to get the right graph. The first was related to the ranges of the goal-amount category, and I had to double-check that I included >= and <= in the appropriate cells. The second was that I had not initially included “plays” only in the formula. In future, I will need to ensure I read the parameters to be included thoroughly, and double check against the code. 
+
+## Results
+The best month to launch a theater fundraising campaign is May, as the highest number of successful campaigns has shown to be launched in May. Secondly, December is the worst month to launch a fundraising campaign. 
+
+The most successful fundraising campaign is below $1,000, with 76% of the projects reaching their goals. 
+For the theater by launch date table, it is recommended that we calculate % successful, % failed, and % canceled. This will confirm that May is still the best month to launch a campaign. However, if Louise is not able to launch in May, she can also launch in June with 65% projects successful, and May or July with 63% projects successful. A line showing percentage successful, failed, canceled would be recommended as percentage is used to compare when the number in each group/category is not the same, In this case, # of projects launched by month is not the same, so showing only count may be misleading. 
+
+From a limitations perspective, the dataset is an aggregate summary of each fundraising campaign. For example, it has the average donations, but not the median donation, and the range (lowest and highest amount). It may be helpful to also understand the demographics of the donors such as age and gender. This information may help Louise to further tailor her fundraising campaign.
+
