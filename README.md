@@ -1,4 +1,5 @@
-# Challenge #1 (UTOR-VIRT-DATA-PT-12-2021-U-B) - [Student: Agnes Tong]
+# Challenge #1 (UTOR-VIRT-DATA-PT-12-2021-U-B)
+# Student: Agnes Tong
 
 # An Analysis of Kickstarter Dataset 
 
@@ -13,6 +14,7 @@ Louise, an up and coming playwright is looking to start a fundraising campaign f
 The first analysis was to determine which month Louise should launch her fundraising campaign. The following steps were taken: 
 1.	Created a new column “year”, and extracted the year from the “date created conversion” column using the formula =YEAR() function
 2.	A pivot table was created and the sheet was labeled “Theatre Outcomes by Launch Date”. The following variables were placed in the appropriate filters, rows, columns, rows, and values in the pivot table fields. 
+
 ![kickstarter_pic1](https://user-images.githubusercontent.com/96399622/147886473-637815d9-c278-4b2b-9d9a-71f6f8c1c60a.png)
 
 4.	Once the pivot table was created, further filtering was done: 
@@ -21,7 +23,9 @@ The first analysis was to determine which month Louise should launch her fundrai
 -	Using the Grouping function, choose Months to display every month
 
 ![kickstarter_pic2](https://user-images.githubusercontent.com/96399622/147886499-be4b14a3-84de-4beb-abbb-cecd101c4083.png)
+
 -	Using the Move function, re-organize the outcomes successful, failed, and canceled 
+
 ![kickstarter_pic3](https://user-images.githubusercontent.com/96399622/147886524-b365a6f2-52e1-4d9f-8e41-21ff63f6c924.png)
 
 5.	A line graph was created from the pivot table to visualize the relationship between launch month and outcomes of the campaign. The x-axis displays launch month and the y-axis displays the number of campaigns. There are three lines, representing (i) the number of successful campaigns, (ii) the number of failed campaigns, and (iii) the number of canceled campaigns for each launch month. 
