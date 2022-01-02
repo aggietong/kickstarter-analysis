@@ -49,6 +49,7 @@ The second analysis was to determine the number and proportion of campaigns base
 -	Number of success divided by total # projects 
 - Numner of failed divided by total # projects 
 - Number of canceled divided by total # projects 
+
 An example of the formula is displayed below: 
 
 ![kickstarter_pic8](https://user-images.githubusercontent.com/96399622/147886628-7b781837-18a9-471d-9720-f88659a348f0.png)
