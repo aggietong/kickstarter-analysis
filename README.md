@@ -13,7 +13,7 @@ Louise, an up and coming playwright is looking to start a fundraising campaign f
 The first analysis was to determine which month Louise should launch her fundraising campaign. The following steps were taken: 
 1.	Created a new column “year”, and extracted the year from the “date created conversion” column using the formula =YEAR() function
 2.	A pivot table was created and the sheet was labeled “Theatre Outcomes by Launch Date”. The following variables were placed in the appropriate filters, rows, columns, rows, and values in the pivot table fields. 
-![kickstarterpic1](C:\Users\atong\Desktop\kickstarter_pic1)
+![kickstarter_pic1](C:\Users\atong\Desktop\kickstarter_pic1.png)
 4.	Once the pivot table was created, further filtering was done: 
 -	Filter “theater” from the variable “parent category”
 -	Filter “live” from the column labels for the variable “outcome” 
