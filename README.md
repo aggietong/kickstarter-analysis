@@ -7,7 +7,7 @@
 
 Louise, an up and coming playwright is looking to start a fundraising campaign for her play “Fever”. Her anticipated budget for the play is approximately $10,000. With the use of the crowdfunding dataset, an analysis has been performed to help provide Louise with insights of previous successful fundraising campaigns. Campaign outcomes such as fundraising goals and launch dates will help Louise to determine her own strategies to ensure a successful fundraising campaign for her play. 
 
-## Overview of Analysis
+## Overview of Analysis & Challenges
 
 ### Analysis 1: Theater Outcomes by Launch Date
 
