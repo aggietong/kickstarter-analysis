@@ -17,7 +17,7 @@ The first analysis was to determine which month Louise should launch her fundrai
 
 ![kickstarter_pic1](https://user-images.githubusercontent.com/96399622/147886473-637815d9-c278-4b2b-9d9a-71f6f8c1c60a.png)
 
-4.	Once the pivot table was created, further filtering was done: 
+3.	Once the pivot table was created, further filtering was done: 
 -	Filter “theater” from the variable “parent category”
 -	Filter “live” from the column labels for the variable “outcome” 
 -	Using the Grouping function, choose Months to display every month
@@ -28,7 +28,7 @@ The first analysis was to determine which month Louise should launch her fundrai
 
 ![kickstarter_pic3](https://user-images.githubusercontent.com/96399622/147886524-b365a6f2-52e1-4d9f-8e41-21ff63f6c924.png)
 
-5.	A line graph was created from the pivot table to visualize the relationship between launch month and outcomes of the campaign. The x-axis displays launch month and the y-axis displays the number of campaigns. There are three lines, representing (i) the number of successful campaigns, (ii) the number of failed campaigns, and (iii) the number of canceled campaigns for each launch month. 
+4.	A line graph was created from the pivot table to visualize the relationship between launch month and outcomes of the campaign. The x-axis displays launch month and the y-axis displays the number of campaigns. There are three lines, representing (i) the number of successful campaigns, (ii) the number of failed campaigns, and (iii) the number of canceled campaigns for each launch month. 
 
 ![kickstarter_pic4](https://user-images.githubusercontent.com/96399622/147886535-cabcc362-ee29-4fcc-bd3e-24fba2703df0.png)
 
